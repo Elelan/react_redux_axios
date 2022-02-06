@@ -11,8 +11,8 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" exact element={ProductList} />
-          <Route path="/product/:productId" exact element={ProductDetail} />
+          <Route path="/" exact element={<ProductList />} />
+          <Route path="/product/:productId" exact element={<ProductDetail />} />
           <Route
             path="*"
             element={
